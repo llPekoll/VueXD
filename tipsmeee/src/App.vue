@@ -86,12 +86,12 @@ export default {
 .navbar
   background-color: #383838
   a
-    color: beige
+    color: $text-color
     &:hover
       color: pink
 
 .navbar-brand a
-  color: white
+  color: $text-color
   font-weight: bold
 
 a.r-item
@@ -107,10 +107,10 @@ li
   display: inline
 
 .footer
-  color: beige
+  color: $text-color
   background-color: $primary !important
   .icon
-    color: beige
+    color: $text-color
     margin-left: 20px
 .navbar
    border: none
